@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1233149941 &-9184214896319401386
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WatherBubble3_{-9184214896319401386}
+  m_AudioClip: {fileID: 8300000, guid: cc65f3f766ca9114281a70de2ba4ce32, type: 3}
+  m_Volume: -5
+  m_Enabled: 1
+--- !u!1233149941 &-1155855044085524867
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WatherBubble4_{-1155855044085524867}
+  m_AudioClip: {fileID: 8300000, guid: 9be9f81a0e1e68c4bb346eb1ec35d666, type: 3}
+  m_Volume: -5
+  m_Enabled: 1
+--- !u!1233149941 &1413580211115144417
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WatherBubble1_{1413580211115144417}
+  m_AudioClip: {fileID: 8300000, guid: a83054e06e8ce544ba62f0e122b68dd3, type: 3}
+  m_Volume: -5
+  m_Enabled: 1
+--- !u!1307931743 &6418180475301049370
+AudioRandomContainer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WatherBubble
+  m_Volume: -13
+  m_Pitch: 0
+  m_AutomaticTriggerTime: 0
+  m_LoopCount: 1
+  m_VolumeRandomizationRange: {x: 0, y: 0}
+  m_PitchRandomizationRange: {x: 0, y: 0}
+  m_AutomaticTriggerTimeRandomizationRange: {x: 0, y: 0}
+  m_LoopCountRandomizationRange: {x: 0, y: 0}
+  m_Elements:
+  - {fileID: 1413580211115144417}
+  - {fileID: 8723467689652380866}
+  - {fileID: -9184214896319401386}
+  - {fileID: -1155855044085524867}
+  m_AvoidRepeatingLast: 0
+  m_PlaybackMode: 2
+  m_TriggerMode: 1
+  m_AutomaticTriggerMode: 1
+  m_LoopMode: 2
+  m_VolumeRandomizationEnabled: 0
+  m_PitchRandomizationEnabled: 0
+  m_AutomaticTriggerTimeRandomizationEnabled: 0
+  m_LoopCountRandomizationEnabled: 0
+--- !u!1233149941 &8723467689652380866
+AudioContainerElement:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WatherBubble2_{8723467689652380866}
+  m_AudioClip: {fileID: 8300000, guid: 04a21bd0f21bef24488e4ca7f0b3aa5e, type: 3}
+  m_Volume: -5
+  m_Enabled: 1
